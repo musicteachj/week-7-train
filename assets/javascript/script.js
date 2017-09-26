@@ -7,7 +7,7 @@ $('#submitButton').on('click', function(){
 	var firstTime = moment($('#timeInput').val().trim(), "HH:mm").format("");
 	var frequency = $('#frequencyInput').val().trim();
 
-	//creates local holder for train times
+	//creates local holder for train times - JSON Data
 	var newTrains = {
 		name: trainName,
 		tdestination: destination,
